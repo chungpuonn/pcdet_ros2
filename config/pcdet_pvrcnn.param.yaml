@@ -8,3 +8,4 @@ pcdet:
     device_id: 0
     device_memory_fraction: 6.0
     threshold_array: [0.7, 0.35, 0.5] # [Car, Pedestrian, Bicycle]
+    # threshold_array: [0.7, 0.10, 0.5] # [Car, Pedestrian, Bicycle]

@@ -38,7 +38,8 @@ def generate_launch_description():
 
     declare_input_topic_cmd = DeclareLaunchArgument(
         'input_topic',
-        default_value='/kitti/point_cloud',
+        # default_value='/kitti/point_cloud',
+        default_value='/livox/lidar',
         description='Input Point Cloud'
     )
 

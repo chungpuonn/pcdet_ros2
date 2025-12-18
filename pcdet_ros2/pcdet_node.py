@@ -19,6 +19,9 @@ The package subscribes to the pointcloud message and publishes instances of obje
 #
 # Copyright (c) 2023 Shrijal Pradhan.  All rights reserved.
 
+import sys
+sys.path.insert(0, "/root/perception/OpenPCDet")
+
 # Imports
 import rclpy 
 from rclpy.node import Node
@@ -104,7 +107,7 @@ class PCDetROS(Node):
             out_msg.detections = []
             self.__pub_det__.publish(out_msg)
 
-    def __convertCloudFormat__(self, cloud_array, remove_nans=True, dtype=np.float):
+    def __convertCloudFormat__(self, cloud_array, remove_nans=True, dtype=np.float64):
         '''
         '''
         if remove_nans:
