@@ -2,7 +2,14 @@
 
 This is a ROS 2 Wrapper for [`[OpenPCDet]`](https://github.com/open-mmlab/OpenPCDet).
 
-![Sample Rviz2](docs/raw_ros2_kitti.png "Sample Rviz2")
+### Kitti Dataset: Sample Results
+![Kitti Sample Rviz2](docs/raw_ros2_kitti.png "Kitti Sample Rviz2")
+
+### Ranger-Mini-2 Robot at NTU' S2 Building: Sample Results on car detection
+![Real Sample Car](docs/openpcdet_car.gif "Real Sample Car")
+
+### Ranger-Mini-2 Robot at NTU' S2 Building: Sample Results on human detection
+![Real Sample Human](docs/openpcdet_human.gif "Real Sample Human")
 
 **Test System**
 - Computation: i9-12900K, GPU 4080
